@@ -4,7 +4,7 @@ class TypeCleaner:
   def __init__(self, df):
     self.df = df
 
-  def object_to_init(self, column):
+  def object_to_int(self, column):
     # errors= 'coerce' turns text like 'missing' or 'N/A' into NaN
     return self.df
 
