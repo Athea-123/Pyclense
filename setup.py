@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 setup(
   name="Pyclense",
   version="0.1.0",
-  author="Group Geng2x", 
+  author="Group Walis", 
   description="A simple Python library for data cleaning and preprocessing.",
   long_description=open("README.md").read() if open("README.md").read() else"",
   long_description_content_types="text/markdown",
